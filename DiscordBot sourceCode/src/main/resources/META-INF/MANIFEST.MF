@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: jackson-core-2.8.5.jar base64-2.3.9.jar toml4j-0.7.2.jar j
+ son-20160212.jar httpclient-4.5.2.jar commons-net-3.6.jar http-endec-
+ 1.04.jar JDA-3.3.0_265.jar jsr305-3.0.2.jar jna-4.4.0.jar commons-col
+ lections4-4.1.jar slf4j-api-1.7.22.jar okhttp-3.8.1.jar nv-websocket-
+ client-2.2.jar commons-lang3-3.6.jar httpmime-4.5.2.jar lavaplayer-1.
+ 2.43.jar jackson-annotations-2.8.0.jar lavaplayer-common-1.0.5.jar co
+ mmons-logging-1.2.jar jspeedtest-1.31.2.jar jackson-databind-2.8.5.ja
+ r trove4j-3.0.3.jar httpasyncclient-4.1.1.jar commons-codec-1.9.jar h
+ ttpcore-nio-4.4.4.jar jsoup-1.10.1.jar httpcore-4.4.4.jar okio-1.13.0
+ .jar unirest-java-1.4.9.jar gson-2.8.1.jar commons-io-2.5.jar slf4j-s
+ imple-1.7.5.jar
+Main-Class: core.Main
+
