@@ -1,6 +1,7 @@
 package core;
 
 import commands.Clear;
+import commands.Help;
 import commands.cmdPing;
 import listeners.commandListener;
 import listeners.readyListener;
@@ -49,6 +50,7 @@ import javax.security.auth.login.LoginException;
 
             commandHandler.commands.put("ping", new cmdPing());
             commandHandler.commands.put("clear", new Clear());
+            commandHandler.commands.put("help", new Help());
             //test
 
         }
