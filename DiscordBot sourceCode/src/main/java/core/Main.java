@@ -12,20 +12,22 @@ import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.OnlineStatus;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.exceptions.RateLimitedException;
-import util.SECRETS;
 import util.STATIC;
 
 import javax.security.auth.login.LoginException;
 
-    public class Main {
+public class Main {
 
         public static JDABuilder builder;
+        private static String TOKEN;
 
         public static void main(String[] Args) {
 
+            TOKEN = setup.Configuration.setupToken();
+
             builder = new JDABuilder(AccountType.BOT);
 
-            builder.setToken(SECRETS.TOKEN);
+            builder.setToken(TOKEN);
             builder.setAutoReconnect(true);
 
             builder.setStatus(OnlineStatus.ONLINE);
