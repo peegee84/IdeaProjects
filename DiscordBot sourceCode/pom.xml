@@ -40,7 +40,7 @@
         <dependency>
             <groupId>com.mashape.unirest</groupId>
             <artifactId>unirest-java</artifactId>
-            <version>LATEST</version>
+            <version>1.4.9</version> <!-- avoid conflicts with org.json:json -->
         </dependency>
         <dependency>
             <groupId>net.dv8tion</groupId>
@@ -57,9 +57,15 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160212</version> <!-- same version as needet for com.mashhape.unirest:unirest-java:1.4.9 to avoid conflicts -->
+        </dependency>
     </dependencies>
 
     <build>
+        <defaultGoal>clean compile package</defaultGoal>
         <plugins>
             <!-- Compile our code -->
             <plugin>
