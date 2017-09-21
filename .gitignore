@@ -2,6 +2,7 @@
 ### Java template
 # Compiled class file and generated stuff
 target/
+out/
 dependency-reduced-pom.xml
 
 # Log file
